@@ -1,0 +1,167 @@
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free
+$ pwd
+/e/group_30_QA/group_30_free
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free
+$ cd ..
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA
+$ mk dir homework_1
+bash: mk: command not found
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA
+$ mkdir homework_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA
+$ cd homework_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ mkdir hw_1 hw_2 hw_3
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ cd hw_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ pdw
+bash: pdw: command not found
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ pwd
+/e/group_30_QA/homework_1/hw_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ touch qa1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ touch qa2
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ rm qa1 qa2
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ ls -la
+total 0
+drwxr-xr-x 1 Nika 197121 0 May 30 12:03 ./
+drwxr-xr-x 1 Nika 197121 0 May 30 11:59 ../
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ touch qa1.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ touch qa2.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ cat >> qa3.txt
+hello world
+hello world
+
+hello world
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ touch qa4.json
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ touch qa5.json
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ mkdir hw_1_1 hw_1_2 hw_1_3
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ ls -la
+total 5
+drwxr-xr-x 1 Nika 197121  0 May 30 12:07 ./
+drwxr-xr-x 1 Nika 197121  0 May 30 11:59 ../
+drwxr-xr-x 1 Nika 197121  0 May 30 12:07 hw_1_1/
+drwxr-xr-x 1 Nika 197121  0 May 30 12:07 hw_1_2/
+drwxr-xr-x 1 Nika 197121  0 May 30 12:07 hw_1_3/
+-rw-r--r-- 1 Nika 197121  0 May 30 12:03 qa1.txt
+-rw-r--r-- 1 Nika 197121  0 May 30 12:04 qa2.txt
+-rw-r--r-- 1 Nika 197121 37 May 30 12:04 qa3.txt
+-rw-r--r-- 1 Nika 197121  0 May 30 12:05 qa4.json
+-rw-r--r-- 1 Nika 197121  0 May 30 12:05 qa5.json
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ cat qa1.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ cat >>qa1.txt
+123456
+123456
+123456
+
+789789
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ cat qa1.txt
+123456
+123456
+123456
+
+789789
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ cd ..
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ mv hm_1/qa4.json hm_1/qa4.json
+mv: cannot stat 'hm_1/qa4.json': No such file or directory
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ cd hm_1
+bash: cd: hm_1: No such file or directory
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ mv hw_1/qa4.json hw_2/qa4.json
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ mv hw_1/qa5.json hw_2/qa5.json
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ cp hw_2/qa4.json hw_3/qa4.json
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ cp hw_2/qa5.json hw_3/qa5.json
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ find . -name qa5.json
+./hw_2/qa5.json
+./hw_3/qa5.json
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ grep
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ grep hello hw_1/qa3.txt
+hello world
+hello world
+hello world
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ head -n2 qa1.txt
+head: cannot open 'qa1.txt' for reading: No such file or directory
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1
+$ cd hw_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ head -n2 qa1.txt
+123456
+123456
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ tail -n2 qa1.txt
+
+789789
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ less qa1.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1
+$ date
+Mon May 30 12:56:36 RTZ 2022
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/homework_1/hw_1

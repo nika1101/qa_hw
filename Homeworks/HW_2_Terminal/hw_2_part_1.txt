@@ -1,0 +1,190 @@
+Nika@DESKTOP-FFO9THT MINGW64 ~
+$ cd /e/group_30_QA/group_30_free
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free
+$ mkdir dir_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free
+$ cd dir_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ mkdir inner_dir_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ pwd
+/e/group_30_QA/group_30_free/dir_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ touch ft_1.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ cat > tf_2.txt
+-the first
+-the second 2
+-the third 3
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ cat >> tf_2.txt
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ vim tf_2.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ cd inner_dir_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat > tf_3.txt
+1) Alex
+2) Mary
+3) Nick
+4) Mike
+5) Alice
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat >> tf_3.txt
+6) the second 2
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat >> tf_3.txt
+7) the sec 2
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat tf_3.txt
+1) Alex
+2) Mary
+3) Nick
+4) Mike
+5) Alice
+7) the sec 2
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ vim tf_3.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat >> tf_3.txt
+8) the sec 3
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat >> tf_3.txt
+9) the SeCoNd 2
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat >> tf_3.txt
+10) the seConD 2
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ vim tf_3.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cd..
+bash: cd..: command not found
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cd ..
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ cat >> tf_2.txt
+-the sec 3
+-the the seConD
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ cd inner_dir_1
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat > tf_4.txt
+one
+two
+tree
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirteen
+fourteen
+fifteen
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cat > tf_5.txt
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirteen
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ ls -l
+total 3
+-rw-r--r-- 1 Nika 197121  87 May 31 10:57 tf_3.txt
+-rw-r--r-- 1 Nika 197121 161 May 31 11:11 tf_4.txt
+-rw-r--r-- 1 Nika 197121  72 May 31 11:13 tf_5.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1/inner_dir_1
+$ cd ..
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ cat tf_3.txt
+cat: tf_3.txt: No such file or directory
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ cat inner_dir_1/tf_3.txt
+1) Alex
+2) Mary
+3) Nick
+4) Mike
+5) Alice
+6) the second 2
+7) the sec 2
+8) the SeCoNd 2
+
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ find . -name tf_4.txt
+./inner_dir_1/tf_4.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ > inner_dir_1/tf_4.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ cat inner_dir_1/tf_4.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ find . -name "tf"
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ find . -iname "tf"
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ find . -iname "tf*"
+./inner_dir_1/tf_3.txt
+./inner_dir_1/tf_4.txt
+./inner_dir_1/tf_5.txt
+./tf_2.txt
+
+Nika@DESKTOP-FFO9THT MINGW64 /e/group_30_QA/group_30_free/dir_1
+$ find . -iname "Tf*"
+./inner_dir_1/tf_3.txt
+./inner_dir_1/tf_4.txt
+./inner_dir_1/tf_5.txt
+./tf_2.txt
